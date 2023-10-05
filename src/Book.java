@@ -3,6 +3,8 @@ public class Book {
     String title;
     boolean borrowed;
 
+
+    public Book (){}
     // Creates a new Book
     public Book(String bookTitle) {
         // Implement this method
@@ -27,9 +29,11 @@ public class Book {
         // Implement this method
        return borrowed; //this is a getter method for boolean
 
+}
 
-
-
+    public void setBorrowed(boolean borrowed) {
+        this.borrowed = borrowed;        
+        
     }
 
     // Returns the title of the book
