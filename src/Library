@@ -19,6 +19,7 @@ public class Library {
         System.out.println("Library hours:");
         printOpeningHours();
         System.out.println();
+        //This will be the open hours and address section. 
 
         System.out.println("Library addresses:");
         firstLibrary.printAddress();
