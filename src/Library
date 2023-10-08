@@ -1,5 +1,10 @@
 public class Library {
     // Add the missing implementation to this class
+private String name;
+private Book[] books;
+public final int TOTAL_AMNT_BOOKS = 1000;
+private int amntBooks;
+private int requestedTimes;
 
     public static void main(String[] args) {
         // Create two libraries
