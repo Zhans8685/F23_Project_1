@@ -6,6 +6,13 @@ public final int TOTAL_AMNT_BOOKS = 1000;
 private int amntBooks;
 private int requestedTimes;
 
+
+public Library(String name) {
+		this.name = name;
+		this.books = new Book[TOTAL_AMNT_BOOKS];
+		this.amntBooks = 0;
+		this.requestedTimes = new int[TOTAL_AMNT_BOOKS];
+
     public static void main(String[] args) {
         // Create two libraries
         Library firstLibrary = new Library("10 Main St.");
