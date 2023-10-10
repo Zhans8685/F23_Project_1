@@ -7,6 +7,7 @@ private int amntBooks;
 private int requestedTimes;
 
 
+//new library
 public Library(String name) {
 		this.name = name;
 		this.books = new Book[TOTAL_AMNT_BOOKS];
